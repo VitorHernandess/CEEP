@@ -10,15 +10,15 @@
 
 #block1 img{
     width: 200px;
-    height: 100px;
-    border-radius: 5px;
-    object-fit: cover;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 #conteiner1{
     display: flex;
     height: 500px;
-    align-items: center;
+    margin-top: 100px;
 }
 
 #block1{
@@ -29,8 +29,6 @@
     border: 2px solid black;
     border-radius: 10px;
     color: white;
-    background: transparent;
-    backdrop-filter: blur(10px);
 }
 
 #block1 h2{
@@ -39,17 +37,17 @@
 }
 
 #block2 img{
-    width: 300px;
+    width: 200px;
     height: 200px;
-    border-radius: 5px;
-    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 50px;
 }
+
 
 #block2{
     width: 300px;
     height: 300px;
     margin-left: 125px;
-    margin-top: 10px;
     border: 2px solid black;
     border-radius: 10px;
     color: white;
@@ -63,10 +61,10 @@
 }
 
 #block3 img{
-    width: 300px;
+    width: 200px;
     height: 200px;
-    border-radius: 5px;
-    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 #block3{
@@ -87,10 +85,10 @@
 }
 
 #block4 img{
-    width: 300px;
+    width: 200px;
     height: 200px;
-    border-radius: 5px;
-    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 #block4{
@@ -121,8 +119,8 @@
     width: 350px;
     height: 350px;
     cursor: pointer;
-    background: black;
-    color: black;
+    background: #648940;
+    color: white;
     transition: 1s;
     font-size: 30px;
 }
@@ -141,14 +139,16 @@
 
 #t1{
     display: none;
+    margin-left: 0;
+    margin-top: 40px;
 }
 
 #block2:hover{
     width: 350px;
     height: 350px;
     cursor: pointer;
-    background: black;
-    color: black;
+    background: #7397b8;
+    color: white;
     transition: 1s;
     font-size: 30px;
 }
@@ -173,8 +173,8 @@
     width: 350px;
     height: 350px;
     cursor: pointer;
-    background: black;
-    color: black;
+    background: #e04955;
+    color: white;
     transition: 1s;
     font-size: 30px;
 }
@@ -199,8 +199,8 @@
     width: 350px;
     height: 350px;
     cursor: pointer;
-    background: white;
-    color: black;
+    background: #ffdc7b;
+    color: white;
     transition: 1s;
 }
 
@@ -249,3 +249,4 @@
 #block4{
     animation: efeito 4s;
 }
+
