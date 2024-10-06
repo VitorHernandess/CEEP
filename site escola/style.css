@@ -151,3 +151,15 @@ body{
     width: 100vh;
     height: 100%;
 }
+
+section{
+    width: 1864px;
+    height: 850px;
+}
+
+
+#histo{
+    background: white;
+    height: 600px;
+    width: 500px;
+}
