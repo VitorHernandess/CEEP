@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: white;
 }
 
 #conteiner{
@@ -30,7 +31,7 @@ body{
 
 #menu{
     text-align: right;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 40px;
 }
 
@@ -163,3 +164,62 @@ section{
     height: 600px;
     width: 500px;
 }
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+.ceep h2{
+    animation: efeito 2s;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+
+@keyframes efeito {
+    from {
+        opacity: 0;
+        translate: -100vh 0 0 ;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0 0;
+    }
+}
+
+.quadrado {
+        width: 550px; /* ajuste o tamanho do quadrado */
+        height: 600px;
+        background-color: #fff; /* ajuste a cor de fundo */
+        border-radius: 10px; /* ajuste a borda arredondada */
+        box-shadow: 15px -3px 10px rgba(0, 0, 0, 0.2); /* ajuste a sombra */
+        position: absolute;
+        margin-top: 200px;
+        left: 100px;
+        font-size: 13px;
+        text-align: center;
+        display: flex;
+        animation: efeito 3s;
+     }
+
+     .quadrado h2{
+        margin-top: 40px;
+     }
+
